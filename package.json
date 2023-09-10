@@ -1,0 +1,17 @@
+{
+  "name": "proj",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "test script",
+    "build": "./node_modules/@z3ro/Miracle/dist/scripts/build.js",
+    "dev": "./node_modules/@z3ro/Miracle/dist/scripts/dev.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@z3ro/miracle": "^0.2.0"
+  }
+}

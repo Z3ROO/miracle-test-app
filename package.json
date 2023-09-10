@@ -5,13 +5,13 @@
   "main": "index.js",
   "scripts": {
     "test": "test script",
-    "build": "./node_modules/@z3ro/Miracle/dist/scripts/build.js",
-    "dev": "./node_modules/@z3ro/Miracle/dist/scripts/dev.js"
+    "build": "npx @z3ro/miracle --build",
+    "dev": "npx @z3ro/miracle --dev"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@z3ro/miracle": "^0.2.0"
+    "@z3ro/miracle": "^0.2.1"
   }
 }
